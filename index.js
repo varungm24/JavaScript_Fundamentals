@@ -162,3 +162,6 @@ console.log(p1.__proto__);
 
 //division
 console.log(4/2);
+
+//addition 
+console.log(2+4);
