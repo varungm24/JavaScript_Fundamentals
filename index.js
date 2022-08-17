@@ -108,15 +108,31 @@
 // console.log(product);
 // }
 
+// function distanceTravel(cost)
+// {
+//     let dist=0;
+//     if(cost!=0)
+//     {
+//     dist++;
+//     cost-=3
+//     }
+//     while(cost!=0)
+//     {
+//         dist++;
+//         cost-=2;
+//     }
+//     return dist;
+// }
+// console.log(distanceTravel(0));
 
 
 // productOfNumbers(3,2,5);
 
-// var Set1 = new Set([3,4,5])
-// var Set2 = new Set([6,5,3])
-
-// Set2.forEach(Set1.add , Set1)
-// console.log(Set1)
+// const  Set1 = new Set([3,4,5])
+//  const Set2 = new Set([6,5,3])
+//  const Set3 = new Set([3,9,6])
+//  const Set4 = new Set([...Set1, ...Set2, ...Set3]) 
+//  console.log(Set4)
 
 // let str =  '{"Javascript" : "The Good Parts", "Author": "Douglas Crockford"}';
 
@@ -124,3 +140,19 @@
 // console.log(obj.Author);
 
 
+// let a = 4;
+// let b = 5;
+// let mult = a * b;
+// console.log(mult);
+
+
+class Person{
+    constructor(fname,lname){
+        this.fname=fname;
+        this.lname=lname;
+        console.log(`My name is ${(fname)} ${(lname)}`);
+    }
+}
+let p1 = new Person('varun','gm');
+console.log(p1.fname);
+console.log(p1.__proto__);
