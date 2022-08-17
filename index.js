@@ -165,3 +165,6 @@ console.log(4/2);
 
 //addition 
 console.log(2+4);
+
+//subtratction
+console.log(4-2);
