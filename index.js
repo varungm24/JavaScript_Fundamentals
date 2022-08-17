@@ -159,3 +159,6 @@ console.log(p1.__proto__);
 
 
 //updating for git
+
+//division
+console.log(4/2);
