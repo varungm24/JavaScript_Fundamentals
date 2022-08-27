@@ -156,3 +156,15 @@ class Person{
 let p1 = new Person('varun','gm');
 console.log(p1.fname);
 console.log(p1.__proto__);
+
+
+//updating for git
+
+//division
+console.log(4/2);
+
+//addition 
+console.log(2+4);
+
+//subtratction
+console.log(4-2);
